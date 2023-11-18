@@ -1,0 +1,66 @@
+*{
+    padding :0;
+    margin:0;
+    box-sizing :border-box ;
+    display:block ;
+}
+nav ul{
+    display :flex ;
+    list-style :none ;
+}
+nav ul li a{
+    font-size :20px ;
+    text-decoration:none ;
+    color:black ;
+}
+nav ul p.Viss{
+    font-size :30px ;
+    margin-right:10%;
+    padding:20px ;
+}
+nav ul li {
+    padding :20px ;
+}
+.login{
+    margin-left :50px ;
+}
+.signup{
+    padding :10px ;
+    border:1px solid black;
+    border-radius :10px ;
+    background-color:#ff7300;
+    color:white;
+    width:120px ;
+    text-align :center ;
+    margin-left :-20px;
+    position :relative ;
+    bottom :30%;
+}
+h2{
+    color :#15b6ff95;
+    text-transform :uppercase ;
+}
+.paragraph{
+    font-size :48px ;
+    font-style :normal;
+    font-family :Poppins;
+    letter-spacing:4.8px;
+    line-height :1.5 ;
+}
+.container {
+    display :grid ;
+    grid-template-columns :1fr 1fr ;
+}
+.content {
+    padding-top:30%;
+    margin-left :50px ;
+}
+button{
+    margin-left :50px ;
+    margin-top:30px;
+    padding :8px ;
+    width:80px;
+    background-color:#ff7300;
+    border-radius :10px ;
+    color :white ;
+}

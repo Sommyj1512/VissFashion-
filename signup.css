@@ -1,0 +1,87 @@
+*{
+    padding :0;
+    margin :0;
+    box-sizing :border-box ;
+}
+body{
+    background:linear-gradient(to right,orange,brown);
+}
+.logo{
+    width:15px;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+.loginphase{
+    display :grid ;
+    grid-template-columns :1fr 1fr ;
+    margin-top:20%;
+}
+.main{
+    border:1px solid black ;
+    width:300px;
+    text-align :center ;
+    background-color :white ;
+    padding: 10px;
+    margin-left:40%;
+    border-radius :5px ;
+    font-family:sans-serif;
+}
+.service{
+    font-size :10px;
+    margin-bottom :20px ;
+}
+input{
+    padding:10px;
+    border-radius :15px ;
+    margin-bottom :10px ;
+    width :200px;
+}
+#name{
+    text-align: center;
+}
+.fa-facebook {
+    align-self: center;
+    position:relative ;
+    left:25px;
+    background-color :blue;
+    color :white ;
+    border-radius :10px ;
+}
+.fa-twitter {
+    align-self: center;
+    position:relative ;
+    left:25px;
+    color:blue;
+}
+.fa-google{
+    align-self: center;
+    position:relative ;
+    left:25px;
+    border-radius :10px ;
+    color :rgba(255,153,125,25,);
+}
+.fa-apple{
+    align-self: center;
+    position:relative ;
+    left:25px;
+    color :white;
+    border:1px solid black;
+    border-radius :60%;
+    background-color :black ;
+}
+.fa-mobile{
+    align-self: center;
+    position:relative ;
+    left:25px;
+}
+.fa-envelope{
+    align-self: center;
+    position:relative ;
+    left:25px;
+}
+.picture{
+    width :300px ;
+    border-radius :5px ;
+}
